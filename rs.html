@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V7 FutStore</title>
+    <link rel="shortcut icon" href="img/V7.png" type="image/x-icon">
+    <link rel="stylesheet" href="clubes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+            <div class="container flex-column ">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/V7.png" alt="V7 FutStore" height="80">
+                </a>
+    
+                <!-- Campo de busca centralizado -->
+                <div id="pesquisa" class="w-100 d-flex justify-content-center mb-3">
+                    <form class="d-flex w-50">
+                        <input class="form-control me-2" type="search" placeholder="Buscar camisas..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                    <div class="ms-3">
+                        <a href="#login" class="btn btn-link" title="Login"><i class="fas fa-user"></i></a>
+                        <a href="#carrinho" class="btn btn-link" title="Carrinho"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+    
+                <!-- Botão responsivo -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- Links de Navegação -->
+                <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Clubes
+                            </a>
+                            <ul class="nav-item dropdown-menu">
+                                <li><a class="dropdown-item" id="cortimes" href="clubes.html">Clubes em Geral</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" id="cortimes" href="br.html">Brasileirão</a></li>
+                                <li><a class="dropdown-item" id="cortimes" href="rj.html">Rio de Janeiro</a></li>
+                                <li><a class="dropdown-item" id="cortimes" href="sp.html">São Paulo</a></li>
+                                <li><a class="dropdown-item" id="cortimes" href="mgrs.html">MG - PR</a></li>
+                                <li><a class="dropdown-item" id="cortimes" href="nordeste.html">Nordeste</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#selecao">Seleções</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Retrô</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <img src="img/branco.jpg" height="170px" width="100px" alt="">
+
+    <img src="img/Rs.png" height="210px" alt="">
+
+
+
+
+    <section class="product-section py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Grêmio 2024</h3>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="row g-3 justify-content-center mt-1"> <!-- justify-content-center alinha os cards no centro -->
+                    <!-- Card 1 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/gre1.webp" class="card-img-top" alt="Camisa Flamengo">
+                            <div class="card-body">
+                                <h5 class="card-title">Grêmio Casa</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 2 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/gre2.webp" class="card-img-top" alt="Camisa Vasco">
+                            <div class="card-body">
+                                <h5 class="card-title">Grêmio Fora</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 3 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/gre3.webp" class="card-img-top" alt="Camisa Corinthians">
+                            <div class="card-body">
+                                <h5 class="card-title">Grêmio 3</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 4 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/gregk.webp" class="card-img-top" alt="Camisa Botafogo">
+                            <div class="card-body">
+                                <h5 class="card-title">Grêmio Goleiro</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 5 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/gretreino.webp" class="card-img-top" alt="Camisa Grêmio">
+                            <div class="card-body">
+                                <h5 class="card-title">Grêmio Treino</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="product-section py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Internacional 2024</h3>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="row g-3 justify-content-center mt-1"> <!-- justify-content-center alinha os cards no centro -->
+                    <!-- Card 1 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/int1.webp" class="card-img-top" alt="Camisa Flamengo">
+                            <div class="card-body">
+                                <h5 class="card-title">Inter Casa</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 2 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/int2.webp" class="card-img-top" alt="Camisa Vasco">
+                            <div class="card-body">
+                                <h5 class="card-title">Inter Fora</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 3 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/int3.webp" class="card-img-top" alt="Camisa Internacional">
+                            <div class="card-body">
+                                <h5 class="card-title">Internacional 3</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 4 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/intgk.webp" class="card-img-top" alt="Camisa Botafogo">
+                            <div class="card-body">
+                                <h5 class="card-title">Inter Goleiro</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 5 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/inttreino.webp" class="card-img-top" alt="Camisa Palmeiras">
+                            <div class="card-body">
+                                <h5 class="card-title">Inter Treino</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="product-section py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Juventude 2024</h3>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="row g-3 justify-content-center mt-1"> <!-- justify-content-center alinha os cards no centro -->
+                    <!-- Card 1 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/juventude1.webp" class="card-img-top" alt="Camisa Flamengo">
+                            <div class="card-body">
+                                <h5 class="card-title">Juventude Casa</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 2 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/juventude2.webp" class="card-img-top" alt="Camisa Vasco">
+                            <div class="card-body">
+                                <h5 class="card-title">Juventude Fora</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 3 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/juventude3.jpeg" class="card-img-top" alt="Camisa Corinthians">
+                            <div class="card-body">
+                                <h5 class="card-title">Juventude 3</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 4 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/juventudegk.jpeg" class="card-img-top" alt="Camisa Botafogo">
+                            <div class="card-body">
+                                <h5 class="card-title">Camisa Goleiro</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 5 -->
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="img/juventudetreino.jpeg" class="card-img-top" alt="Camisa Palmeiras">
+                            <div class="card-body">
+                                <h5 class="card-title">Juventude Treino</h5>
+                                <p class="card-text">R$ 179,90</p>
+                                <a href="#" class="btn btn-primary w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 V7 FutStore. Todos os direitos reservados.</p>
+            <p>Siga-nos nas redes sociais:</p>
+            <div>
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+    
+</html>
